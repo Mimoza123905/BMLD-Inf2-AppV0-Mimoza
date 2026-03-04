@@ -27,3 +27,5 @@ def app() -> None:
                 st.success(f"pH = {ph_val:.3f}")
             except Exception as exc:
                 st.error(str(exc))
+if __name__ == "__main__":
+    app()
